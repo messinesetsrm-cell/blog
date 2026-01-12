@@ -1,0 +1,117 @@
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 6rem 1.5rem 2rem;
+    /* Added top padding to account for fixed navbar */
+}
+
+.header {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem !important;
+        /* Force override inline styles if present, though we moved to classes mostly */
+    }
+
+    .header {
+        margin-bottom: 2rem;
+    }
+}
+
+.subtitle {
+    color: hsl(var(--text-secondary));
+}
+
+.section {
+    margin-bottom: 4rem;
+}
+
+.sectionTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sectionTitle::after {
+    content: '';
+    height: 1px;
+    background: hsl(var(--text-secondary) / 0.3);
+    flex-grow: 1;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.microGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    border-color: hsl(var(--accent-color) / 0.5);
+}
+
+.meta {
+    font-size: 0.875rem;
+    color: hsl(var(--text-secondary));
+    margin-bottom: 0.5rem;
+}
+
+.postTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.excerpt {
+    color: hsl(var(--text-secondary));
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.readMore {
+    margin-top: auto;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: hsl(var(--accent-color));
+}
+
+/* Micro-blog styles */
+.microCard {
+    padding: 1.25rem;
+}
+
+.microContent {
+    font-style: italic;
+    font-size: 1rem;
+    color: hsl(var(--text-primary));
+}

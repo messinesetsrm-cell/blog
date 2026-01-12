@@ -1,0 +1,8 @@
+.footer {
+    padding: 3rem 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: hsl(var(--text-secondary));
+    margin-top: auto;
+    width: 100%;
+}

@@ -1,0 +1,144 @@
+.navbar {
+    position: fixed;
+    top: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1000px;
+    height: 4rem;
+    border-radius: 2rem;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    transition: all 0.3s ease;
+}
+
+/* Mobile Menu Base Styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 101;
+}
+
+.bar {
+    width: 100%;
+    height: 2px;
+    background-color: hsl(var(--text-primary));
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+.mobileMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: var(--radius-lg);
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    visibility: hidden;
+    /* Glass styles for the dropdown itself if needed override */
+    background: hsla(var(--bg-secondary) / 0.95);
+}
+
+.mobileMenuOpen {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+    visibility: visible;
+}
+
+.navLinks {
+    display: flex;
+    gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 1.25rem;
+        height: 3.5rem;
+        width: 95%;
+        border-radius: 1.75rem;
+    }
+
+    .navLinks {
+        display: none;
+        /* Hide desktop links */
+    }
+
+    .link {
+        font-size: 0.85rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* Bar animations */
+    .barOpen1 {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .barOpen2 {
+        opacity: 0;
+    }
+
+    .barOpen3 {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+.link {
+    font-weight: 500;
+    font-size: 0.95rem;
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: hsl(var(--accent-color));
+    transition: width 0.3s ease;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+}
+
+.active {
+    color: hsl(var(--accent-color));
+}
+
+.active::after {
+    width: 100%;
+}
