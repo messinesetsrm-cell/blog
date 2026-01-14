@@ -3,6 +3,7 @@ import styles from './blog.module.css';
 
 // Mock Data
 const longFormPosts = [
+    { id: 4, title: "Educazione Finanziaria #1: Perché investire non è (solo) per ricchi", date: 'Jan 14, 2026', excerpt: "Scopri perché investire è fondamentale per proteggere i tuoi risparmi dall'inflazione e come sfruttare l'interesse composto partendo da zero.", slug: 'basi-investimento-educazione-finanziaria' },
     { id: 3, title: "La Bisaccia di Fedro e la Gravità dell'Ipocrisia", date: 'Jan 11, 2026', excerpt: "Un'analisi senza tempo della natura umana, tra l'antica saggezza di Fedro e le moderne sfide dell'autocritica nell'era digitale.", slug: 'la-bisaccia-di-fedro' },
 ];
 
