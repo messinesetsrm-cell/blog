@@ -1,8 +1,10 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import styles from '../blog.module.css';
 import ShareButton from '@/components/ShareButton/ShareButton';
+
 
 export default function ArticleContent() {
     const [lang, setLang] = useState<'it' | 'en'>('it');
@@ -68,6 +70,17 @@ export default function ArticleContent() {
                         <p style={{ marginBottom: '1.5rem' }}>
                             Molti pensano che il mondo degli investimenti sia riservato a chi ha capitali enormi. La realtà è che investire è uno strumento di protezione necessario, accessibile a tutti.
                         </p>
+
+                        <div style={{ marginBottom: '2rem', borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }}>
+                            <Image
+                                src="/images/infografica-investimento.jpg"
+                                alt="Infografica: Perché Investire?"
+                                width={1200}
+                                height={675}
+                                style={{ width: '100%', height: 'auto', display: 'block' }}
+                            />
+                        </div>
+
 
                         <h3 className={styles.sectionTitle} style={{ marginTop: '3rem' }}>L'Inflazione: il nemico silenzioso</h3>
                         <p style={{ marginBottom: '1.5rem' }}>
