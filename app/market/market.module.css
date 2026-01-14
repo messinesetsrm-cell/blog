@@ -23,18 +23,30 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.topCharts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.mainOverview {
+    margin-top: 2rem;
 }
 
 .card {
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: var(--radius-lg);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 200px;
+    min-height: 200px;
     position: relative;
     overflow: hidden;
 }
+
 
 .symbol {
     font-size: 1.5rem;
