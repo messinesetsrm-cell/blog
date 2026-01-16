@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import styles from './Navbar.module.css';
 
@@ -15,7 +16,18 @@ export default function Navbar() {
     return (
         <nav className={`${styles.navbar} glass floating`}>
             <Link href="/" className={styles.logo} onClick={closeMenu}>
-                Messinese Salvatore
+                <div className={styles.logoContainer}>
+                    <div className={styles.imageWrapper}>
+                        <Image
+                            src="/images/profile-logo.png"
+                            alt="Salvatore Messinese"
+                            width={32}
+                            height={32}
+                            className={styles.profileImage}
+                        />
+                    </div>
+                    <span>Messinese Salvatore</span>
+                </div>
             </Link>
 
             {/* Desktop Links */}
