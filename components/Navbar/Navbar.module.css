@@ -87,7 +87,16 @@
     }
 
     .logo {
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .logoContainer {
+        gap: 0.5rem;
+    }
+
+    .imageWrapper {
+        width: 28px;
+        height: 28px;
     }
 
     .hamburger {
