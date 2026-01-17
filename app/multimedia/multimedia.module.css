@@ -48,6 +48,25 @@
     transform: translateY(-5px);
 }
 
+.videoContainer {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 20px 50px -10px hsla(var(--accent-color) / 0.2);
+    border: 1px solid hsla(var(--border-color) / 0.5);
+    background: hsla(var(--bg-primary) / 0.5);
+}
+
+.videoElement {
+    width: 100%;
+    display: block;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
 .videoPlaceholder {
     aspect-ratio: 16/9;
     background: hsl(var(--bg-secondary));
