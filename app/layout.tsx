@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -21,6 +22,9 @@ export const metadata: Metadata = {
   keywords: ["Messinese Salvatore", "Antigravity", "Finanza", "Multimedia", "Blog", "Mercati"],
   authors: [{ name: "Messinese Salvatore" }],
   creator: "Messinese Salvatore",
+  other: {
+    "google-adsense-account": "ca-pub-4846963160240954",
+  },
 };
 
 import Navbar from "@/components/Navbar/Navbar";
@@ -34,6 +38,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4846963160240954"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <Navbar />
         <main style={{ minHeight: 'calc(100vh - 100px)', paddingTop: '6rem' }}>
           {children}
