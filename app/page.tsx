@@ -36,6 +36,25 @@ export default function Home() {
           <span className={styles.cta}>Watch now &rarr;</span>
         </Link>
       </section>
+
+      <section className={styles.videoSection}>
+        <h2 className={styles.videoTitle}>Esiste una forza...</h2>
+        <div className={`${styles.videoContainer} glass floating`}>
+          <video
+            className={styles.videoElement}
+            controls
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster="/images/oscillating-planets.png"
+            preload="auto"
+          >
+            <source src="/videos/Esiste_una_forza.mp4" type="video/mp4" />
+            Il tuo browser non supporta il tag video.
+          </video>
+        </div>
+      </section>
     </div>
   );
 }
