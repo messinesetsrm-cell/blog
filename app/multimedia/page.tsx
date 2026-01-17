@@ -16,10 +16,18 @@ export default function Multimedia() {
                     <video
                         className={styles.videoElement}
                         controls
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
                         poster="/images/oscillating-planets.png"
+                        preload="auto"
                     >
-                        <source src="/videos/Esiste_una_forza_.mp4" type="video/mp4" />
+                        <source src="/videos/Esiste_una_forza.mp4" type="video/mp4" />
                         Il tuo browser non supporta il tag video.
+                        <a href="/videos/Esiste_una_forza.mp4" style={{ color: 'hsl(var(--accent-color))', textDecoration: 'underline' }}>
+                            Scarica il video direttamente qui
+                        </a>.
                     </video>
                 </div>
                 <p style={{ textAlign: 'center', marginTop: '1rem', color: 'hsl(var(--text-secondary))', fontStyle: 'italic' }}>

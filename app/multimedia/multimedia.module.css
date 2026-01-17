@@ -56,15 +56,17 @@
     overflow: hidden;
     position: relative;
     box-shadow: 0 20px 50px -10px hsla(var(--accent-color) / 0.2);
-    border: 1px solid hsla(var(--border-color) / 0.5);
+    border: 1px solid hsla(var(--text-primary) / 0.1);
     background: hsla(var(--bg-primary) / 0.5);
 }
 
 .videoElement {
     width: 100%;
+    height: auto;
     display: block;
     aspect-ratio: 16 / 9;
-    object-fit: cover;
+    object-fit: contain;
+    background: black;
 }
 
 .videoPlaceholder {
