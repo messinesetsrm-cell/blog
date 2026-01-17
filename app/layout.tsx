@@ -13,8 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Messinese Salvatore | Dalle radici alla gravità zero",
-  description: "Dalle radici alla gravità zero. A personal space for thoughts, market data, and multimedia.",
+  title: {
+    default: "Messinese Salvatore | Antigravity",
+    template: "%s | Antigravity"
+  },
+  description: "Dalle radici alla gravità zero. Un'area personale dedicata a pensieri, dati di mercato e multimedia curata da Messinese Salvatore.",
+  keywords: ["Messinese Salvatore", "Antigravity", "Finanza", "Multimedia", "Blog", "Mercati"],
+  authors: [{ name: "Messinese Salvatore" }],
+  creator: "Messinese Salvatore",
 };
 
 import Navbar from "@/components/Navbar/Navbar";
