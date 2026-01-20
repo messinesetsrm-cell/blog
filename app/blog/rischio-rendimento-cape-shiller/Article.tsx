@@ -56,8 +56,8 @@ export default function ArticleContent() {
 
                 <h1 className={styles.title}>
                     {lang === 'it'
-                        ? "Messinese: Navigare tra il Rischio e la Valutazione (Shiller e dintorni)"
-                        : "Messinese: Navigating Risk and Valuation (Shiller and Surroundings)"}
+                        ? "Educazione Finanziaria #3: Navigare tra il Rischio e la Valutazione (Shiller e dintorni)"
+                        : "Financial Education #3: Navigating Risk and Valuation (Shiller and surroundings)"}
                 </h1>
                 <div className={styles.meta} style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
                     <div style={{ display: 'flex', gap: '1rem' }}>
@@ -66,7 +66,7 @@ export default function ArticleContent() {
                         <span>{lang === 'it' ? 'Gen 20, 2026' : 'Jan 20, 2026'}</span>
                     </div>
                     <ShareButton
-                        title={lang === 'it' ? "Messinese: Navigare tra il Rischio e la Valutazione" : "Messinese: Navigating Risk and Valuation"}
+                        title={lang === 'it' ? "Educazione Finanziaria #3: Navigare tra il Rischio e la Valutazione" : "Financial Education #3: Navigating Risk and Valuation"}
                         text={lang === 'it' ? "Dalle lezioni di 'The Bull' alle riflessioni sul CAPE di Shiller." : "From 'The Bull' lessons to Shiller's CAPE reflections."}
                         url="https://messinese.vercel.app/blog/rischio-rendimento-cape-shiller"
                     />
