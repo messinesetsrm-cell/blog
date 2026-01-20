@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import ArticleContent from './Article';
+import ArticleContent from './article';
 
 export const metadata: Metadata = {
     title: "Educazione Finanziaria #3: Navigare tra il Rischio e la Valutazione (Shiller e dintorni) | Dalle radici alla gravità zero",

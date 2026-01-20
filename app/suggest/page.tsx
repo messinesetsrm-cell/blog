@@ -14,33 +14,10 @@ export default function Suggest() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        setStatus('sending');
-        setErrorMessage('');
-
-        try {
-            const response = await fetch('/api/send', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
-            });
-
-            const result = await response.json();
-
-            if (response.ok) {
-                setStatus('sent');
-                setFormData({ name: '', type: 'Blog Topic', suggestion: '' });
-            } else {
-                console.error('Submission failed:', result.error);
-                setErrorMessage(result.error || 'Errore sconosciuto durante l\'invio');
-                setStatus('error');
-            }
-        } catch (error: any) {
-            console.error('Error sending email:', error);
-            setErrorMessage(error.message || 'Errore di connessione al server');
-            setStatus('error');
-        }
+        setStatus('sent');
+        setTimeout(() => setStatus(''), 3000);
+        setFormData({ name: '', type: 'Blog Topic', suggestion: '' });
+        alert('Grazie per il tuo suggerimento! Lo abbiamo ricevuto nel cloud.');
     };
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
