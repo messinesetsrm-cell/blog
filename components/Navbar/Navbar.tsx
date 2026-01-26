@@ -37,6 +37,14 @@ export default function Navbar() {
                 <NavLink href="/market" current={pathname} onClick={closeMenu}>Market</NavLink>
                 <NavLink href="/multimedia" current={pathname} onClick={closeMenu}>Multimedia</NavLink>
                 <NavLink href="/suggest" current={pathname} onClick={closeMenu}>Suggest</NavLink>
+                <a
+                    href="https://www.instagram.com/mess_salvo/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.link}
+                >
+                    Instagram
+                </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -53,6 +61,15 @@ export default function Navbar() {
                 <NavLink href="/market" current={pathname} onClick={closeMenu}>Market</NavLink>
                 <NavLink href="/multimedia" current={pathname} onClick={closeMenu}>Multimedia</NavLink>
                 <NavLink href="/suggest" current={pathname} onClick={closeMenu}>Suggest</NavLink>
+                <a
+                    href="https://www.instagram.com/mess_salvo/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${styles.link} ${styles.mobileInstagram}`}
+                    onClick={closeMenu}
+                >
+                    Instagram
+                </a>
             </div>
         </nav>
     );
