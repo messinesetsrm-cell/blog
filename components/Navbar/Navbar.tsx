@@ -26,7 +26,10 @@ export default function Navbar() {
                             className={styles.profileImage}
                         />
                     </div>
-                    <span>Messinese Salvatore</span>
+                    <span className={styles.logoName}>
+                        <span className={styles.firstName}>Messinese</span>
+                        <span className={styles.lastName}> Salvatore</span>
+                    </span>
                 </div>
             </Link>
 

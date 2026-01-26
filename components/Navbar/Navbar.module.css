@@ -101,19 +101,25 @@
 
     .hamburger {
         display: flex;
+        flex-shrink: 0;
     }
 
-    /* Bar animations */
-    .barOpen1 {
-        transform: translateY(8px) rotate(45deg);
+    .logoName {
+        display: flex;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
-    .barOpen2 {
-        opacity: 0;
-    }
+    @media (max-width: 480px) {
+        .lastName {
+            display: none;
+        }
 
-    .barOpen3 {
-        transform: translateY(-8px) rotate(-45deg);
+        .navbar {
+            width: 98%;
+            padding: 0 1rem;
+        }
     }
 }
 
