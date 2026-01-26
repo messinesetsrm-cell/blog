@@ -100,7 +100,7 @@
     }
 
     .hamburger {
-        display: flex;
+        display: flex !important;
         flex-shrink: 0;
     }
 
@@ -109,17 +109,23 @@
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+        max-width: 120px;
+        /* Limit logo text width on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .lastName {
+        display: none !important;
     }
 
-    @media (max-width: 480px) {
-        .lastName {
-            display: none;
-        }
+    .navbar {
+        width: 98% !important;
+        padding: 0 0.75rem !important;
+    }
 
-        .navbar {
-            width: 98%;
-            padding: 0 1rem;
-        }
+    .logoName {
+        max-width: 100px;
     }
 }
 
