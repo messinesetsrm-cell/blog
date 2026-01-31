@@ -4,12 +4,17 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import styles from '../blog.module.css';
 import ShareButton from '@/components/ShareButton/ShareButton';
+import Breadcrumbs from '@/components/Breadcrumbs/Breadcrumbs';
 
 export default function ArticleContent() {
     const [lang, setLang] = useState<'it' | 'en'>('it');
 
     return (
         <article className={styles.container}>
+            <Breadcrumbs items={[
+                { label: 'Blog', href: '/blog' },
+                { label: lang === 'it' ? 'Economia Globale 2026' : 'Global Economy 2026' }
+            ]} />
             <header className={styles.header}>
                 <div style={{ marginBottom: '2rem', borderRadius: 'var(--radius-lg)', overflow: 'hidden' }}>
                     <Image
@@ -69,7 +74,7 @@ export default function ArticleContent() {
                     <ShareButton
                         title={lang === 'it' ? "2026: L'Anno in cui le Regole del Gioco sono Cambiate" : "2026: The Year the Rules of the Game Changed"}
                         text={lang === 'it' ? "5 Verità Scomode dall'Economia Globale" : "5 Uncomfortable Truths from the Global Economy"}
-                        url="http://localhost:3000/blog/2026-regole-gioco-cambiate-economia-globale"
+                        url="https://messinese.work/blog/2026-regole-gioco-cambiate-economia-globale"
                     />
                 </div>
             </header>

@@ -4,12 +4,17 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import styles from '../blog.module.css';
 import ShareButton from '@/components/ShareButton/ShareButton';
+import Breadcrumbs from '@/components/Breadcrumbs/Breadcrumbs';
 
 export default function ArticleContent() {
     const [lang, setLang] = useState<'it' | 'en'>('it');
 
     return (
         <article className={styles.container}>
+            <Breadcrumbs items={[
+                { label: 'Blog', href: '/blog' },
+                { label: lang === 'it' ? 'Rischio' : 'Risk' }
+            ]} />
             <header className={styles.header}>
                 <div style={{ marginBottom: '2rem', borderRadius: 'var(--radius-lg)', overflow: 'hidden' }}>
                     <Image

@@ -1,0 +1,29 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: hsl(var(--text-secondary));
+    margin-bottom: 2rem;
+}
+
+.link {
+    color: hsl(var(--text-secondary));
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.link:hover {
+    color: hsl(var(--accent-color));
+}
+
+.separator {
+    color: hsl(var(--border-color));
+}
+
+.active {
+    color: hsl(var(--accent-color));
+    font-weight: 500;
+    pointer-events: none;
+}

@@ -39,6 +39,7 @@ export default function Navbar() {
                 <NavLink href="/blog" current={pathname} onClick={closeMenu}>Blog</NavLink>
                 <NavLink href="/market" current={pathname} onClick={closeMenu}>Market</NavLink>
                 <NavLink href="/multimedia" current={pathname} onClick={closeMenu}>Multimedia</NavLink>
+                <NavLink href="/about" current={pathname} onClick={closeMenu}>About</NavLink>
                 <NavLink href="/suggest" current={pathname} onClick={closeMenu}>Suggest</NavLink>
                 <a
                     href="https://www.instagram.com/mess_salvo/"
@@ -63,6 +64,7 @@ export default function Navbar() {
                 <NavLink href="/blog" current={pathname} onClick={closeMenu}>Blog</NavLink>
                 <NavLink href="/market" current={pathname} onClick={closeMenu}>Market</NavLink>
                 <NavLink href="/multimedia" current={pathname} onClick={closeMenu}>Multimedia</NavLink>
+                <NavLink href="/about" current={pathname} onClick={closeMenu}>About</NavLink>
                 <NavLink href="/suggest" current={pathname} onClick={closeMenu}>Suggest</NavLink>
                 <a
                     href="https://www.instagram.com/mess_salvo/"

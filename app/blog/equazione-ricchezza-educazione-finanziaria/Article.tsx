@@ -4,12 +4,17 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import styles from '../blog.module.css';
 import ShareButton from '@/components/ShareButton/ShareButton';
+import Breadcrumbs from '@/components/Breadcrumbs/Breadcrumbs';
 
 export default function ArticleContent() {
     const [lang, setLang] = useState<'it' | 'en'>('it');
 
     return (
         <article className={styles.container}>
+            <Breadcrumbs items={[
+                { label: 'Blog', href: '/blog' },
+                { label: lang === 'it' ? 'L\'Equazione' : 'The Equation' }
+            ]} />
             <header className={styles.header}>
                 <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
                     <button
