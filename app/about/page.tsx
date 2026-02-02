@@ -93,7 +93,7 @@ export default function About() {
                 </section>
 
                 <section className={`${styles.section} glass`}>
-                    <h2>{lang === 'it' ? 'La Nostra Visione' : 'Our Vision'}</h2>
+                    <h2>{lang === 'it' ? 'La Mia Visione' : 'My Vision'}</h2>
                     {lang === 'it' ? (
                         <p>
                             Credo che l'informazione di qualità debba essere accessibile e coinvolgente. Attraverso saggi long-form, micro-pensieri e visualizzazioni di dati in tempo reale, Antigravity si propone come un hub di conoscenza per chiunque voglia comprendere meglio il mondo che ci circonda.
