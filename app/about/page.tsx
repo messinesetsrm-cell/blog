@@ -96,11 +96,11 @@ export default function About() {
                     <h2>{lang === 'it' ? 'La Nostra Visione' : 'Our Vision'}</h2>
                     {lang === 'it' ? (
                         <p>
-                            Crediamo che l'informazione di qualità debba essere accessibile e coinvolgente. Attraverso saggi long-form, micro-pensieri e visualizzazioni di dati in tempo reale, Antigravity si propone come un hub di conoscenza per chiunque voglia comprendere meglio il mondo che ci circonda.
+                            Credo che l'informazione di qualità debba essere accessibile e coinvolgente. Attraverso saggi long-form, micro-pensieri e visualizzazioni di dati in tempo reale, Antigravity si propone come un hub di conoscenza per chiunque voglia comprendere meglio il mondo che ci circonda.
                         </p>
                     ) : (
                         <p>
-                            We believe that quality information should be accessible and engaging. Through long-form essays, micro-thoughts, and real-time data visualizations, Antigravity aims to be a knowledge hub for anyone wishing to better understand the world around us.
+                            I believe that quality information should be accessible and engaging. Through long-form essays, micro-thoughts, and real-time data visualizations, Antigravity aims to be a knowledge hub for anyone wishing to better understand the world around us.
                         </p>
                     )}
                 </section>
