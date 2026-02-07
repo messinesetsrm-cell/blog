@@ -3,6 +3,7 @@ import styles from './blog.module.css';
 
 // Mock Data
 const longFormPosts = [
+    { id: 10, title: "Febbraio 2026: Tempesta Perfetta sui Mercati. Cosa sta succedendo?", date: 'Feb 07, 2026', excerpt: "L'inizio di febbraio rimescola le carte: sell-off nel tech, Bitcoin in correzione e metalli preziosi sotto pressione. Analisi di un momento di alta emotività.", slug: 'tempesta-perfetta-mercati-febbraio-2026' },
     { id: 9, title: "Educazione Finanziaria #4: Smetti di fare il 'cecchino': perché il tempo batte il tempismo", date: 'Jan 31, 2026', excerpt: "Scopri perché il market timing è spesso una trappola e perché restare sul mercato a lungo termine è più efficace che cercare di azzeccare il momento giusto.", slug: 'tempo-vs-tempismo-educazione-finanziaria' },
     { id: 8, title: "Smetti di Leggere le Notizie: Riprenditi il Tuo Tempo e la Tua Mente", date: 'Jan 26, 2026', excerpt: "Perché il consumo costante di notizie è dannoso e come disintossicarsi per riprendere il controllo della propria mente.", slug: 'smetti-leggere-notizie' },
     { id: 7, title: "2026: L'Anno in cui le Regole del Gioco sono Cambiate. 5 Verità Scomode dall'Economia Globale", date: 'Jan 23, 2026', excerpt: "Dall'iperinflazione in Iran all'intervento militare in Venezuela: come la geopolitica sta ridisegnando l'economia mondiale.", slug: '2026-regole-gioco-cambiate-economia-globale' },

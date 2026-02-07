@@ -9,7 +9,7 @@ export default function Footer() {
             <div className={styles.links}>
                 <Link href="/privacy" className={styles.link}>Privacy Policy</Link>
                 <Link href="/terms" className={styles.link}>Termini di Servizio</Link>
-                <Link href="/about" className={styles.link}>Chi Siamo</Link>
+                <Link href="/about" className={styles.link}>Chi Sono</Link>
 
                 <a href="https://www.instagram.com/mess_salvo/" target="_blank" rel="noopener noreferrer" className={styles.link}>Instagram</a>
             </div>

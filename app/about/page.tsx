@@ -43,7 +43,7 @@ export default function About() {
                     </button>
                 </div>
                 <h1 className={styles.title}>
-                    {lang === 'it' ? 'Chi Siamo' : 'About Us'}
+                    {lang === 'it' ? 'Chi Sono' : 'About Me'}
                 </h1>
             </header>
 
