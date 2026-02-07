@@ -148,3 +148,112 @@
     margin-bottom: 1.5rem;
   }
 }
+
+.bookSection {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 3rem;
+  border-radius: var(--radius-lg);
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid hsla(var(--text-primary) / 0.1);
+  background: hsla(var(--bg-primary) / 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.bookImageContainer {
+  flex: 0 0 300px;
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s var(--ease-fluid);
+}
+
+.bookImageContainer:hover {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+.bookContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.bookLabel {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: hsl(var(--accent-color));
+}
+
+.bookTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0;
+  background: linear-gradient(to right, hsl(var(--text-primary)), hsl(var(--text-secondary)));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bookDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: hsl(var(--text-secondary));
+}
+
+.bookLink {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.8rem 1.5rem;
+  background: hsl(var(--accent-color));
+  color: white;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  width: fit-content;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px -5px hsla(var(--accent-color) / 0.4);
+}
+
+.bookLink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px -8px hsla(var(--accent-color) / 0.6);
+  filter: brightness(1.1);
+}
+
+@media (max-width: 850px) {
+  .bookSection {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.5rem;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .bookImageContainer {
+    flex: 0 0 auto;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .bookContent {
+    align-items: center;
+    text-align: center;
+  }
+
+  .bookTitle {
+    font-size: 2rem;
+  }
+}

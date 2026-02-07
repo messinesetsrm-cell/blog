@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import NextImage from 'next/image';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -35,6 +36,34 @@ export default function Home() {
           </p>
           <span className={styles.cta}>Watch now &rarr;</span>
         </Link>
+      </section>
+
+      <section className={`${styles.bookSection} glass`}>
+        <div className={`${styles.bookImageContainer} floating`}>
+          <NextImage
+            src="/images/il-cuore-nella-testa.jpg"
+            alt="Copertina Libro IL CUORE NELLA TESTA"
+            width={300}
+            height={450}
+            style={{ width: '100%', height: 'auto', display: 'block' }}
+          />
+        </div>
+        <div className={styles.bookContent}>
+          <span className={styles.bookLabel}>Nuova Uscita - Febbraio 2026</span>
+          <h2 className={styles.bookTitle}>IL CUORE NELLA TESTA</h2>
+          <p className={styles.bookDescription}>
+            Un viaggio profondo nell'animo umano e nella razionalità, dove le emozioni incontrano il pensiero critico.
+            Scopri l'ultima opera di Salvatore Messinese, un libro che sfida la gravità delle convenzioni.
+          </p>
+          <a
+            href="https://amzn.eu/d/09MM6CLy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.bookLink}
+          >
+            Acquista su Amazon &rarr;
+          </a>
+        </div>
       </section>
 
       <section className={styles.videoSection}>
