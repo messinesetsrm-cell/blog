@@ -40,7 +40,7 @@ export default function Market() {
                     <h2 className={styles.title} style={{ fontSize: '1.5rem' }}>Stagionalità</h2>
                     <p className={styles.subtitle}>Visualizza le variazioni di valore di un simbolo negli anni precedenti per identificare tendenze ricorrenti.</p>
                 </header>
-                <div className={`${styles.card} glass`} style={{ height: '600px', padding: '1rem' }}>
+                <div className={`${styles.card} glass`} style={{ height: '800px', padding: '1rem' }}>
                     <SeasonalityChart symbol="FOREXCOM:SPX500" />
                 </div>
             </div>
