@@ -26,9 +26,7 @@ export default function SeasonalityChart({ symbol = "FOREXCOM:SPX500" }: Seasona
             "locale": "it",
             "enable_publishing": false,
             "hide_top_toolbar": true,
-            "hide_legend": true,
             "allow_symbol_change": true,
-            "save_image": false,
             "container_id": "tradingview_seasonality",
             "studies": [
                 "STD;Seasonality"
@@ -36,16 +34,7 @@ export default function SeasonalityChart({ symbol = "FOREXCOM:SPX500" }: Seasona
             "show_popup_button": true,
             "popup_width": "1000",
             "popup_height": "650",
-            "support_host": "https://www.tradingview.com",
-            "overrides": {
-                "paneProperties.legendProperties.showStudyArguments": false,
-                "paneProperties.legendProperties.showStudyTitles": false,
-                "paneProperties.legendProperties.showStudyValues": false,
-                "scalesProperties.showStudyLastValue": false,
-                "paneProperties.background": "#000000",
-                "paneProperties.vertGridProperties.color": "rgba(42, 46, 57, 0)",
-                "paneProperties.horzGridProperties.color": "rgba(42, 46, 57, 0)"
-            }
+            "support_host": "https://www.tradingview.com"
         });
 
         container.current.appendChild(script);
@@ -58,7 +47,7 @@ export default function SeasonalityChart({ symbol = "FOREXCOM:SPX500" }: Seasona
     }, [symbol]);
 
     return (
-        <div className="tradingview-widget-container" ref={container} style={{ height: '100%', width: '100%' }}>
+        <div className="tradingview-widget-container" ref={container} style={{ height: '600px', width: '100%' }}>
             <div id="tradingview_seasonality" style={{ height: '100%', width: '100%' }}></div>
         </div>
     );
