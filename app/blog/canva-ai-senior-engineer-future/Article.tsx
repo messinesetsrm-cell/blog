@@ -61,7 +61,7 @@ export default function ArticleContent() {
                 </div>
 
                 <h1 className={styles.title}>
-                    {lang === 'it' ? "Messinese: Il Senior Engineer è morto, lunga vita al Product Engineer" : "Messinese: The Senior Engineer is Dead, Long Live the Product Engineer"}
+                    {lang === 'it' ? "Il Senior Engineer è morto, lunga vita al Product Engineer" : "Messinese: The Senior Engineer is Dead, Long Live the Product Engineer"}
                 </h1>
                 <div className={styles.meta} style={{ justifyContent: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
                     <div style={{ display: 'flex', gap: '1rem' }}>
