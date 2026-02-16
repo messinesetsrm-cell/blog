@@ -3,7 +3,7 @@ import styles from './blog.module.css';
 
 // Mock Data
 const longFormPosts = [
-    { id: 12, title: "Messinese: Il Senior Engineer è morto, lunga vita al Product Engineer", date: 'Feb 16, 2026', excerpt: "Il CTO di Canva lancia una provocazione: con l'AI, saper scrivere codice non basta più. La nuova frontiera è capire cosa costruire, non solo come farlo.", slug: 'canva-ai-senior-engineer-future' },
+    { id: 12, title: "Il Senior Engineer è morto, lunga vita al Product Engineer", date: 'Feb 16, 2026', excerpt: "Il CTO di Canva lancia una provocazione: con l'AI, saper scrivere codice non basta più. La nuova frontiera è capire cosa costruire, non solo come farlo.", slug: 'canva-ai-senior-engineer-future' },
     { id: 11, title: "Investire in azioni singole: Opportunità reale o azzardo per pochi?", date: 'Feb 10, 2026', excerpt: "Un consiglio eccellente per il 99% delle persone è l'investimento passivo, ma esiste una strada per chi vuole puntare a qualcosa di più?", slug: 'investire-azioni-singole-opportunita-o-azzardo' },
     { id: 10, title: "Febbraio 2026: Tempesta Perfetta sui Mercati. Cosa sta succedendo?", date: 'Feb 07, 2026', excerpt: "L'inizio di febbraio rimescola le carte: sell-off nel tech, Bitcoin in correzione e metalli preziosi sotto pressione. Analisi di un momento di alta emotività.", slug: 'tempesta-perfetta-mercati-febbraio-2026' },
     { id: 9, title: "Educazione Finanziaria #4: Smetti di fare il 'cecchino': perché il tempo batte il tempismo", date: 'Jan 31, 2026', excerpt: "Scopri perché il market timing è spesso una trappola e perché restare sul mercato a lungo termine è più efficace che cercare di azzeccare il momento giusto.", slug: 'tempo-vs-tempismo-educazione-finanziaria' },
