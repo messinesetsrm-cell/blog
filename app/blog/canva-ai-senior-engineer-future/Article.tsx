@@ -71,7 +71,7 @@ export default function ArticleContent() {
                     </div>
                     <ShareButton
                         title={lang === 'it' ? "Il Product Engineer" : "The Product Engineer"}
-                        text={lang === 'it' ? "Messinese: Il Senior Engineer è morto, lunga vita al Product Engineer" : "The Senior Engineer is Dead, Long Live the Product Engineer"}
+                        text={lang === 'it' ? "Il Senior Engineer è morto, lunga vita al Product Engineer" : "The Senior Engineer is Dead, Long Live the Product Engineer"}
                         url="https://www.messinese.work/blog/canva-ai-senior-engineer-future"
                     />
                 </div>
