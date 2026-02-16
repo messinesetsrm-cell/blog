@@ -68,7 +68,7 @@ export default function About() {
                     {lang === 'it' ? (
                         <>
                             <p>
-                                Benvenuti su <strong>Antigravity</strong>. Questo spazio nasce dalla passione per l'intersezione tra tecnologia, finanza e narrazione visiva.
+                                Benvenuti su <strong>Antigravity</strong>. Questo spazio nasce dove si incontrano tecnologia, finanza e narrazione visiva
                             </p>
                             <p>
                                 Il mio obiettivo è esplorare temi complessi — dai mercati globali all'educazione finanziaria, fino alla creatività digitale — cercando di offrire una prospettiva chiara e "leggera", proprio come suggerisce il nome del sito.
