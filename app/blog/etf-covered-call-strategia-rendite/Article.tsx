@@ -113,7 +113,7 @@ export default function ArticleContent() {
 
                         <h3 className={styles.sectionTitle} style={{ marginTop: '3rem' }}>Il "Compromesso" Necessario</h3>
                         <p style={{ marginBottom: '1.5rem' }}>
-                            Non esiste un pasto gratis in finanza. Il principale svantaggio dei Covered Call è il tetto ai guadagni (Cap).
+                            Nulla è gratis in finanza. Il principale svantaggio dei Covered Call è il tetto ai guadagni (Cap).
                         </p>
                         <p style={{ marginBottom: '1.5rem' }}>
                             Se il mercato azionario vive un rialzo improvviso e violento (un bull market sfrenato), l'ETF sarà obbligato a vendere i titoli al prezzo prestabilito dell'opzione, rinunciando a gran parte della crescita extra. In pratica, scambi il potenziale di guadagno infinito con una rendita certa e immediata.
@@ -157,7 +157,7 @@ export default function ArticleContent() {
 
                         <h3 className={styles.sectionTitle} style={{ marginTop: '3rem' }}>The Necessary "Compromise"</h3>
                         <p style={{ marginBottom: '1.5rem' }}>
-                            There is no free lunch in finance. The main disadvantage of Covered Calls is the "cap" on gains.
+                            Nothing is free in finance. The main disadvantage of Covered Calls is the "cap" on gains.
                         </p>
                         <p style={{ marginBottom: '1.5rem' }}>
                             If the stock market experiences a sudden and violent rise (an unbridled bull market), the ETF will be forced to sell the titles at the option's predetermined price, giving up much of the extra growth. In practice, you trade the potential for infinite gain for a certain and immediate yield.
