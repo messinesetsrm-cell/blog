@@ -22,6 +22,28 @@ export const metadata: Metadata = {
   keywords: ["Messinese Salvatore", "Antigravity", "Finanza", "Multimedia", "Blog", "Mercati"],
   authors: [{ name: "Messinese Salvatore" }],
   creator: "Messinese Salvatore",
+  openGraph: {
+    title: "Messinese Salvatore | Antigravity",
+    description: "Dalle radici alla gravità zero. Un'area personale dedicata a pensieri, dati di mercato e multimedia curata da Messinese Salvatore.",
+    url: "https://messinese.work",
+    siteName: "Messinese.work",
+    images: [
+      {
+        url: "/images/il-cuore-nella-testa.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Messinese Salvatore - Il cuore nella testa",
+      },
+    ],
+    locale: "it_IT",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Messinese Salvatore | Antigravity",
+    description: "Dalle radici alla gravità zero. Un'area personale dedicata a pensieri, dati di mercato e multimedia curata da Messinese Salvatore.",
+    images: ["/images/il-cuore-nella-testa.jpg"],
+  },
   other: {
     "google-adsense-account": "ca-pub-4846963160240954",
   },
