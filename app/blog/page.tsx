@@ -3,6 +3,7 @@ import styles from './blog.module.css';
 
 // Mock Data
 const longFormPosts = [
+    { id: 14, title: "ETF Covered Call: La Strategia per Generare Rendite nel Mercato Odierno", date: 'Mar 06, 2026', excerpt: "Gli ETF Covered Call si sono imposti come una delle soluzioni più interessanti per chi cerca dividendi elevati in fasi di mercato laterale o incerto.", slug: 'etf-covered-call-strategia-rendite' },
     { id: 13, title: "Investire nei Mercati Emergenti nel 2026: Opportunità Reale o Trappola?", date: 'Feb 21, 2026', excerpt: "Ha ancora senso avere i Paesi Emergenti in portafoglio? Analizziamo insieme se vale la pena esporsi a questi mercati o se il rischio è superiore al beneficio.", slug: 'investire-mercati-emergenti-2026' },
     { id: 12, title: "Il Senior Engineer è morto, lunga vita al Product Engineer", date: 'Feb 16, 2026', excerpt: "Il CTO di Canva lancia una provocazione: con l'AI, saper scrivere codice non basta più. La nuova frontiera è capire cosa costruire, non solo come farlo.", slug: 'canva-ai-senior-engineer-future' },
     { id: 11, title: "Investire in azioni singole: Opportunità reale o azzardo per pochi?", date: 'Feb 10, 2026', excerpt: "Un consiglio eccellente per il 99% delle persone è l'investimento passivo, ma esiste una strada per chi vuole puntare a qualcosa di più?", slug: 'investire-azioni-singole-opportunita-o-azzardo' },
