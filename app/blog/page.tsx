@@ -3,6 +3,7 @@ import styles from './blog.module.css';
 
 // Mock Data
 const longFormPosts = [
+    { id: 17, title: "Shock Petroliferi e Mercati Finanziari: Cosa Insegna la Storia agli Investitori", date: 'Mar 31, 2026', excerpt: "Contrariamente alla percezione comune, un'impennata del prezzo del petrolio non è necessariamente una condanna per il portafoglio. Scopriamo l'impatto reale sui mercati.", slug: 'shock-petroliferi-mercati-finanziari' },
     { id: 16, title: "La Pazienza è il nuovo \"Alpha\": Perché saper aspettare rende più di qualsiasi previsione", date: 'Mar 22, 2026', excerpt: "Scopri perché la pazienza non è solo una virtù morale, ma un vero e proprio motore di rendimento quantificabile negli investimenti.", slug: 'pazienza-nuovo-alpha' },
     { id: 15, title: "Geopolitica e Portafoglio: Come Proteggere i Risparmi Quando il Mondo Trema", date: 'Mar 14, 2026', excerpt: "Scopri come proteggere i tuoi risparmi e navigare la volatilità dei mercati durante le crisi geopolitiche.", slug: 'geopolitica-portafoglio-proteggere-risparmi' },
     { id: 14, title: "ETF Covered Call: La Strategia per Generare Rendite nel Mercato Odierno", date: 'Mar 06, 2026', excerpt: "Gli ETF Covered Call si sono imposti come una delle soluzioni più interessanti per chi cerca dividendi elevati in fasi di mercato laterale o incerto.", slug: 'etf-covered-call-strategia-rendite' },
