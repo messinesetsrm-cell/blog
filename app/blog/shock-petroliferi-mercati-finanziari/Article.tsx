@@ -125,7 +125,7 @@ export default function ArticleContent() {
                         <h3 className={styles.sectionTitle} style={{ marginTop: '3rem' }}>4. Il rischio reale: L'iperattività dell'investitore</h3>
                         <p style={{ marginBottom: '1.5rem' }}>
                             Il pericolo maggiore durante uno shock energetico non è il prezzo della benzina, ma la reazione impulsiva.<br />
-                            Un'analisi comparativa mostra che un investimento di 1.000$ nell'S&P 500 dal 1990 ad oggi sarebbe cresciuto di 19 volte rimanendo sempre investiti. Al contrario, un investitore che avesse venduto a ogni calo del 5% per attendere tempi più calmi avrebbe ottenuto una crescita di meno di 4 volte.
+                            Un'analisi comparativa mostra che un investimento di 1.000$ nell'S&P 500 dal 1990 ad oggi sarebbe cresciuto di 19 volte rimanendo sempre investiti. Al contrario, un investitore che avesse venduto a ogni calo del 5% per attendere tempi più calmi avrebbe ottenuto una crescita inferiore di 4 volte.
                         </p>
 
                         <h3 className={styles.sectionTitle} style={{ marginTop: '3rem' }}>Conclusioni</h3>
