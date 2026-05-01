@@ -3,6 +3,7 @@ import styles from './blog.module.css';
 
 // Mock Data
 const longFormPosts = [
+    { id: 20, title: 'Il paradosso del "Pezzo di Carta": l’Università è diventata un Master in Resistenza?', date: 'May 01, 2026', excerpt: "In pratica l’università non ti insegna il lavoro, ti insegna a non affogare quando il lavoro diventa difficile. È un certificato di resilienza.", slug: 'universita-master-in-resistenza' },
     { id: 19, title: "Investire non è accumulare: è progettare la vita che vuoi davvero", date: 'Apr 25, 2026', excerpt: "Investire significa costruire i mattoni della vita che desideri. Non si tratta di quanto denaro hai nel portafoglio oggi, ma di quale libertà vuoi garantirti domani.", slug: 'investire-non-e-accumulare' },
     { id: 18, title: "Mercati globali e incertezza geopolitica: come proteggersi", date: 'Apr 20, 2026', excerpt: "Gli eventi geopolitici che stanno scuotendo lo scacchiere mondiale non sono più solo \"notizie dal mondo\", ma fattori che entrano direttamente nelle nostre tasche.", slug: 'mercati-globali-incertezza-geopolitica' },
     { id: 17, title: "Shock Petroliferi e Mercati Finanziari: Cosa Insegna la Storia agli Investitori", date: 'Mar 31, 2026', excerpt: "Contrariamente alla percezione comune, un'impennata del prezzo del petrolio non è necessariamente una condanna per il portafoglio. Scopriamo l'impatto reale sui mercati.", slug: 'shock-petroliferi-mercati-finanziari' },
