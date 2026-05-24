@@ -3,6 +3,7 @@ import styles from './blog.module.css';
 
 // Mock Data
 const longFormPosts = [
+    { id: 22, title: "Inflazione e mercati: lo scenario che nessuno vuole ma tutti stanno iniziando a prezzare", date: 'May 24, 2026', excerpt: "Fino a qualche settimana fa sembrava uno scenario di coda, una possibilità remota. Oggi l'inflazione è tornata al centro della scena.", slug: 'inflazione-mercati-scenario' },
     { id: 21, title: "L'era di Kevin Warsh alla Fed: quali scenari macroeconomici si aprono adesso?", date: 'May 19, 2026', excerpt: "Con la conferma formale da parte del Senato americano, Kevin Warsh è ufficialmente il 17° Presidente della Federal Reserve. Ecco quali scenari macroeconomici si aprono.", slug: 'era-kevin-warsh-fed' },
     { id: 20, title: 'Il paradosso del "Pezzo di Carta": l’Università è diventata un Master in Resistenza?', date: 'May 01, 2026', excerpt: "In pratica l’università non ti insegna il lavoro, ti insegna a non affogare quando il lavoro diventa difficile. È un certificato di resilienza.", slug: 'universita-master-in-resistenza' },
     { id: 19, title: "Investire non è accumulare: è progettare la vita che vuoi davvero", date: 'Apr 25, 2026', excerpt: "Investire significa costruire i mattoni della vita che desideri. Non si tratta di quanto denaro hai nel portafoglio oggi, ma di quale libertà vuoi garantirti domani.", slug: 'investire-non-e-accumulare' },
