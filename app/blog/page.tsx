@@ -3,6 +3,7 @@ import styles from './blog.module.css';
 
 // Mock Data
 const longFormPosts = [
+    { id: 23, title: "L’Italia ha davvero superato la Grecia per debito pubblico? Numeri, miti e verità macroeconomiche", date: 'May 31, 2026', excerpt: "Nelle ultime settimane i titoli dei giornali finanziari hanno rilanciato una notizia che ha fatto tremare i polsi a molti: l’Italia supererà la Grecia per rapporto debito/PIL. Ma le cose stanno davvero così?", slug: 'italia-superato-grecia-debito-pubblico' },
     { id: 22, title: "Inflazione e mercati: lo scenario che nessuno vuole ma tutti stanno iniziando a prezzare", date: 'May 24, 2026', excerpt: "Fino a qualche settimana fa sembrava uno scenario di coda, una possibilità remota. Oggi l'inflazione è tornata al centro della scena.", slug: 'inflazione-mercati-scenario' },
     { id: 21, title: "L'era di Kevin Warsh alla Fed: quali scenari macroeconomici si aprono adesso?", date: 'May 19, 2026', excerpt: "Con la conferma formale da parte del Senato americano, Kevin Warsh è ufficialmente il 17° Presidente della Federal Reserve. Ecco quali scenari macroeconomici si aprono.", slug: 'era-kevin-warsh-fed' },
     { id: 20, title: 'Il paradosso del "Pezzo di Carta": l’Università è diventata un Master in Resistenza?', date: 'May 01, 2026', excerpt: "In pratica l’università non ti insegna il lavoro, ti insegna a non affogare quando il lavoro diventa difficile. È un certificato di resilienza.", slug: 'universita-master-in-resistenza' },
