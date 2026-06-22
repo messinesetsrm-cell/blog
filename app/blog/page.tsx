@@ -3,6 +3,7 @@ import styles from './blog.module.css';
 
 // Mock Data
 const longFormPosts = [
+    { id: 24, title: "Il tramonto dell'investitore fortunato? Quando i colossi arrivano in Borsa già giganti", date: 'Jun 22, 2026', excerpt: "Le aziende non utilizzano più la Borsa per diventare grandi: ci arrivano quando sono già adulte, giganti globali che hanno già consumato la crescita più redditizia.", slug: 'tramonto-investitore-fortunato-colossi-borsa' },
     { id: 23, title: "L’Italia ha davvero superato la Grecia per debito pubblico? Numeri, miti e verità macroeconomiche", date: 'May 31, 2026', excerpt: "Nelle ultime settimane i titoli dei giornali finanziari hanno rilanciato una notizia che ha fatto tremare i polsi a molti: l’Italia supererà la Grecia per rapporto debito/PIL. Ma le cose stanno davvero così?", slug: 'italia-superato-grecia-debito-pubblico' },
     { id: 22, title: "Inflazione e mercati: lo scenario che nessuno vuole ma tutti stanno iniziando a prezzare", date: 'May 24, 2026', excerpt: "Fino a qualche settimana fa sembrava uno scenario di coda, una possibilità remota. Oggi l'inflazione è tornata al centro della scena.", slug: 'inflazione-mercati-scenario' },
     { id: 21, title: "L'era di Kevin Warsh alla Fed: quali scenari macroeconomici si aprono adesso?", date: 'May 19, 2026', excerpt: "Con la conferma formale da parte del Senato americano, Kevin Warsh è ufficialmente il 17° Presidente della Federal Reserve. Ecco quali scenari macroeconomici si aprono.", slug: 'era-kevin-warsh-fed' },
